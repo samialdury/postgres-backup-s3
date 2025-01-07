@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - "main"
+      - "master"
     tags:
       - "v*"
   pull_request:
     types: [opened, synchronize]
     branches:
-      - "main"
+      - "master"
 
 env:
   TERM: xterm-256color
